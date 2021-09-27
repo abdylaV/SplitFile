@@ -17,7 +17,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		std::cout << "----------------------------------------------\n";
 
 		return 0;
-	
+	}
 
 	std::wstring filenameIn = argv[1];
 	std::wstring filenameOut = argv[2];
