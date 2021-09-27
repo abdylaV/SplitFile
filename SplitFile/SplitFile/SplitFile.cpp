@@ -17,7 +17,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		std::cout << "----------------------------------------------\n";
 
 		return 0;
-	}
+	
 
 	std::wstring filenameIn = argv[1];
 	std::wstring filenameOut = argv[2];
@@ -28,8 +28,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	///////////////////
 	// for test
 	///////////////////
-	//std::wstring filenameIn = L"\\\\zt-footages\\Codec team\\Files\\Daniel 8K clips\\NHK-MLB-8K-FULL.422_qX_cuda.dn2";
-	//std::wstring filenameOut = L"D:\\NHK-MLB-8K-FULL.422_qX_cuda_test.dn2";
+	//std::wstring filenameIn = L"D:\\test.file";
+	//std::wstring filenameOut = L"D:\\test2.file";
 	//
 	//uint64_t uiOffSet = 0;
 	//uint64_t uiSizeSplit = 50;
